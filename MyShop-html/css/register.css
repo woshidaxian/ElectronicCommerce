@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background: #f8f8f8;
+}
+.con-div{
+    width: 860px;
+    height: 550px;
+    background: #ffffff;
+    box-shadow: 0px 0px 36px 0px #cacaca;
+}
+.con-left{
+    width: 55%;
+    height: 100%;
+    background: url(../img/timg.jpeg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+    float: left;
+}
+.con-right{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    float: right;
+}
+.inp-s{
+    width: 260px;
+    height: 40px;
+    line-height: 40px;
+    outline: none;
+    margin-top: 24px;
+    text-indent: 10px;
+}
+.btn{
+    width: 264px;
+    height: 48px;
+    color: #ffffff;
+    background: rgb(12, 147, 236);
+    outline: none;
+    border: none;
+    font-size: 14px;
+    margin-top: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: rgb(10, 162, 223);
+}
+.business-url{
+    display: block;
+    width: 260px;
+    text-decoration: none;
+    color: #808080;
+    font-size: 12px;
+    margin-top: 10px;
+}
+.box-div{
+    width: 260px;
+    font-size: 12px;
+    color: #868686;
+}
+.inp-box{
+    margin-top: 12px;
+    position: relative;
+    top: 2px;
+}
